@@ -1,0 +1,16 @@
+mode: INVENTORY
+inventory:
+  size: 27
+  texts_size: 54
+items:
+  pay: { enabled: true, slot: 12, material: EMERALD }
+  texts: { enabled: true, slot: 14, material: NAME_TAG }
+  back: { enabled: true, slot: 16, material: ARROW }
+  pay_min: { enabled: true, slot: 11, material: GOLD_NUGGET }
+  pay_max: { enabled: true, slot: 12, material: GOLD_INGOT }
+  pay_menu_size: { enabled: true, slot: 13, material: CHEST }
+  pay_show_self: { enabled: true, slot: 14, material: PLAYER_HEAD }
+  text_back: { enabled: true, slot: 53, material: ARROW }
+dialog:
+  columns: 2
+  actions: [pay, texts, back]

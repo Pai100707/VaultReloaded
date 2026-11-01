@@ -1,0 +1,171 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Vault",
+  "colors": {
+    "primary": "#6a2dd9",
+    "light": "#7a43e0",
+    "dark": "#4f1aa8"
+  },
+  "background": {
+    "color": {
+      "dark": "#1d1d1d"
+    }
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "seo": {
+    "metatags": {
+      "title": "Vault 2.1.2 Wiki | Economy Provider for Paper and Folia",
+      "description": "Vault 2.1.2 is an internal Vault API economy provider for Paper and Folia, with configurable GUI layouts, optional Paper Dialog menus, multi-currency balances and selectable balance storage.",
+      "keywords": "Vault Economy, Minecraft plugin, Paper, Folia, multi-currency, balance storage, JSON, YAML, H2, SQLite, MySQL, MariaDB, PostgreSQL, PlaceholderAPI"
+    }
+  },
+  "logo": {
+    "light": "https://i.imgur.com/HxgguHP.png",
+    "dark": "https://i.imgur.com/HxgguHP.png"
+  },
+  "favicon": "https://i.imgur.com/HxgguHP.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Wiki",
+        "groups": [
+          {
+            "group": "Home",
+            "icon": "house",
+            "pages": [
+              "index",
+              "first-install"
+            ]
+          },
+          {
+            "group": "Beginners",
+            "icon": "hand-wave",
+            "pages": [
+              "beginners/getting-started",
+              "beginners/faq-basics"
+            ]
+          },
+          {
+            "group": "Currency & Format",
+            "icon": "coins",
+            "pages": [
+              "currency/format",
+              "currency/multi-currency",
+              "currency/abbreviation"
+            ]
+          },
+          {
+            "group": "Commands & Permissions",
+            "icon": "terminal",
+            "pages": [
+              "commands",
+              "permissions",
+              "config-reference",
+              "languages"
+            ]
+          },
+          {
+            "group": "Economic Features",
+            "icon": "chart-line-up-down",
+            "pages": [
+              "features/player-pay",
+              "features/bank",
+              "features/physical-notes",
+              "features/transactions",
+              "features/top-players",
+              "features/offline-pay",
+              "features/charge-requests",
+              "features/discord-webhook"
+            ]
+          },
+          {
+            "group": "FAQ / Troubleshooting",
+            "icon": "circle-question",
+            "pages": [
+              "faq/installation-errors",
+              "faq/players-cant-pay",
+              "faq/balances-reset",
+              "faq/bank-interest-disabled",
+              "faq/physical-note-invalid",
+              "other/troubleshooting"
+            ]
+          },
+          {
+            "group": "Multiworld",
+            "icon": "globe",
+            "pages": [
+              "multiworld/world-balances",
+              "multiworld/migration-essentials"
+            ]
+          },
+          {
+            "group": "Compatibility",
+            "icon": "square-check",
+            "pages": [
+              "compatibility/placeholders",
+              "compatibility/skinsrestorer",
+              "compatibility/luckperms",
+              "compatibility/mysql"
+            ]
+          },
+          {
+            "group": "Scripting & Placeholders",
+            "icon": "code",
+            "pages": [
+              "scripting/placeholders"
+            ]
+          },
+          {
+            "group": "Developers",
+            "icon": "tool",
+            "pages": [
+              "dev/java/getting-started",
+              "dev/java/tx-events",
+              "dev/java/simple-economy-hooks",
+              "dev/skript",
+              "dev/contribute"
+            ]
+          },
+          {
+            "group": "Other",
+            "icon": "bell",
+            "pages": [
+              "other/changelog",
+              "other/support"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Changelog",
+        "href": "/other/changelog"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/SfKvR4CbUj",
+        "icon": "discord"
+      }
+    ]
+  },
+  "integrations": {
+    "cookies": {
+      "key": "vault-wiki",
+      "value": "vault-wiki"
+    },
+    "telemetry": {
+      "enabled": false
+    }
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  }
+}

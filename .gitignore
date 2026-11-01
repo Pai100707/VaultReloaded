@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+/.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor swap files
+.*.swp
+.*.swo
+*~
+
+# Temporary local files
+index.html
+tools/
+
+# Logs
+*.log
+
+# Images: only allow assets/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.gif
+!assets/*.svg

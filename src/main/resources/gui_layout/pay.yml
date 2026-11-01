@@ -1,0 +1,16 @@
+inventory:
+  size: 27
+  player_menu_size: 9
+  quick_pay_size: 36
+items:
+  pay: { enabled: true, slot: 1, material: EMERALD }
+  view_balance: { enabled: true, slot: 3, material: PAPER }
+  charge: { enabled: true, slot: 5, material: REDSTONE }
+  quick_amount_0: { enabled: true, slot: 0, material: PAPER }
+  quick_amount_1: { enabled: true, slot: 1, material: PAPER }
+  quick_amount_2: { enabled: true, slot: 2, material: PAPER }
+  quick_amount_3: { enabled: true, slot: 3, material: PAPER }
+  quick_amount_4: { enabled: true, slot: 4, material: PAPER }
+  quick_amount_5: { enabled: true, slot: 5, material: PAPER }
+  quick_pay_manual: { enabled: true, slot: 31, material: BOOK }
+  quick_pay_back: { enabled: true, slot: 35, material: ARROW }

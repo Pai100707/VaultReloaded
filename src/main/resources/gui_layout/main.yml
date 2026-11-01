@@ -1,0 +1,12 @@
+# GUI mode: INVENTORY or DIALOG (Paper 1.21.7+).
+mode: INVENTORY
+inventory:
+  size: 27
+items:
+  pay: { enabled: true, slot: 10, material: EMERALD }
+  bank: { enabled: true, slot: 13, material: GOLD_BLOCK }
+  settings: { enabled: true, slot: 14, material: COMPARATOR }
+  reload: { enabled: true, slot: 16, material: BOOK }
+dialog:
+  columns: 2
+  actions: [pay, bank, settings, reload]

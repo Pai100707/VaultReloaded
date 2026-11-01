@@ -1,0 +1,18 @@
+inventory:
+  size: 45
+items:
+  wallet: { enabled: true, slot: 10, material: CHEST }
+  bank: { enabled: true, slot: 13, material: ENDER_CHEST }
+  total: { enabled: true, slot: 16, material: BEACON }
+  deposit: { enabled: true, slot: 20, material: HOPPER }
+  withdraw: { enabled: true, slot: 24, material: DISPENSER }
+  info: { enabled: true, slot: 22, material: PAPER }
+  deposit_qp_1: { enabled: true, slot: 30 }
+  deposit_qp_2: { enabled: true, slot: 31 }
+  deposit_qp_3: { enabled: true, slot: 32 }
+  deposit_qp_4: { enabled: true, slot: 33 }
+  withdraw_qp_1: { enabled: true, slot: 39 }
+  withdraw_qp_2: { enabled: true, slot: 40 }
+  withdraw_qp_3: { enabled: true, slot: 41 }
+  withdraw_qp_4: { enabled: true, slot: 42 }
+  back: { enabled: true, slot: 36, material: ARROW }

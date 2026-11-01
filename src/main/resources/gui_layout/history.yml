@@ -1,0 +1,8 @@
+inventory:
+  size: 54
+  entries_per_page: 45
+items:
+  previous: { slot: 45, material: ARROW }
+  info: { slot: 49, material: PAPER }
+  close: { slot: 50, material: BARRIER }
+  next: { slot: 53, material: ARROW }

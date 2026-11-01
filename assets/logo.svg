@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c98a3e"/>
+      <stop offset="100%" stop-color="#8b5a2b"/>
+    </linearGradient>
+    <linearGradient id="woodDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9a5a2d"/>
+      <stop offset="100%" stop-color="#5a3617"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6e6e6"/>
+      <stop offset="100%" stop-color="#a7a7a7"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Fondo que llena todo el lienzo -->
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- Aro sutil para dar sensación de bóveda -->
+  <circle cx="512" cy="512" r="440" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="24"/>
+
+  <!-- Cofre estilo Minecraft centrado -->
+  <g id="chest" filter="url(#shadow)">
+    <!-- Cuerpo del cofre -->
+    <rect x="232" y="368" width="560" height="336" rx="18" ry="18" fill="url(#wood)" stroke="#3b2413" stroke-width="12"/>
+    <!-- Tapa del cofre -->
+    <rect x="232" y="368" width="560" height="140" rx="18" ry="18" fill="url(#woodDark)" stroke="#3b2413" stroke-width="12"/>
+    <!-- Borde horizontal de la tapa -->
+    <rect x="232" y="508" width="560" height="24" fill="#3b2413"/>
+    <!-- Listones verticales oscuros -->
+    <rect x="332" y="368" width="20" height="336" fill="#3b2413"/>
+    <rect x="672" y="368" width="20" height="336" fill="#3b2413"/>
+    <!-- Placa del candado -->
+    <rect x="492" y="504" width="40" height="90" rx="6" fill="url(#metal)" stroke="#6b7280" stroke-width="6"/>
+    <!-- Ojo de cerradura -->
+    <circle cx="512" cy="534" r="10" fill="#111827"/>
+    <rect x="507" y="544" width="10" height="22" fill="#111827"/>
+    <!-- Brillos sutiles -->
+    <rect x="244" y="382" width="536" height="12" fill="rgba(255,255,255,0.12)"/>
+    <rect x="492" y="504" width="40" height="90" rx="6" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  </g>
+
+  <!-- Logotipo textual 'Vault' centrado sobre el cofre -->
+  <g filter="url(#shadow)">
+    <text x="512" y="320" text-anchor="middle" dominant-baseline="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="180" fill="url(#accent)">Vault</text>
+  </g>
+</svg>
